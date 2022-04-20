@@ -1,5 +1,5 @@
 name: Github actions task
-on: [pull-request]
+on: [pull_request]
 jobs:
   Welcome:
     runs-on: ubuntu-latest
