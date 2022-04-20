@@ -4,4 +4,5 @@ jobs:
   Welcome:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Welcome"
+      - name: Welcome message
+      run: echo "Welcome"
