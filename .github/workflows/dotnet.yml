@@ -1,0 +1,7 @@
+name: Github actions task
+on: [pull-request]
+jobs:
+  Welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Welcome"
